@@ -1,0 +1,57 @@
+$c:rgb(48, 24, 184);
+body{
+margin: 0px;
+}
+nav {
+    background-color: rgb(23, 23, 26);
+    margin: 0px;
+    text-align: end;
+    padding: 15px;
+    a {
+    display:  inline-block;
+    margin: 0px 0px 0 0px;
+    background-color: rgb(80, 75, 72);
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    border: outset black;
+    width: 100px;
+    text-align: center;
+    border-radius: 15px 0px 15px 0px;
+}
+a:hover{
+    background-color: greenyellow;
+}
+}
+
+ul {
+    margin-bottom: 0px;
+    margin-left: 500px;  
+}
+.About {
+    border-radius: 25px 0px 25px 0;
+    background-color: $c;
+    display: block;
+    width: 500;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    h3 {
+        color: blanchedalmond;
+        font-weight: 600;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        height: 15px;
+    }
+    p {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+        text-align:center;
+        height: 50px;
+    }
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
